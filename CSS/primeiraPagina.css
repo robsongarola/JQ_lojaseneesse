@@ -3,5 +3,13 @@
 }
 #corpo {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    padding: 10px;
+    background-color: aqua;
+    
+    & div{
+
+                
+    }
 }
