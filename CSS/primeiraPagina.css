@@ -6,10 +6,13 @@
     grid-template-columns: auto auto auto;
     gap: 5px;
     padding: 10px;
-    background-color: aqua;
-    
-    & div{
+    background-color: aqua;    
 
+        &  div{
+            padding: 10px;
+            text-align: center;
+             
+        }
                 
-    }
+        
 }
