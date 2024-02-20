@@ -15,15 +15,15 @@
              
         }
         & .item1{
-            
-            grid-row-start: 1; 
-            grid-row-end: 4; 
-           
-                  
-        } 
-        & .item2 {
-            grid-column-start: 1;
-            grid-column-end: 3;
 
+            grid-column: 1/ span 3;
         }
+        & .item1 img{
+            display: block;
+            position: relative;
+            margin-left: 5px;
+            width: 50px;
+            height: 30px;
+        }
+   
 }
