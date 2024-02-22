@@ -4,6 +4,7 @@
 #corpo {
     display: grid;
     grid-template-columns: auto auto auto;
+    height: auto;
     gap: 5px;
     padding: 10px;
     background-color: aqua;    
@@ -17,6 +18,7 @@
         & .item1{
 
             grid-column: 1/ span 3;
+            height: auto;
         }
         & .item1 img{
             display: block;
