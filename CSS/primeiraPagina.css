@@ -1,19 +1,19 @@
 *{
     box-sizing: border-box;
 }
-@media screen and (width: 600px) {
+@media screen and (width: 480px) {
     body {
       background-color: lightgreen;
     }
-    &
-    div.item1 img{
-        align-items: start ;
-        width: 115px;
-        height: 40px;
-        
-        
-    }
    
+    
+}
+img #logo {
+    align-items: start ;
+    width: 15px;
+    height: 40px;
+    
+    
 }
 .container {
     display: grid;
