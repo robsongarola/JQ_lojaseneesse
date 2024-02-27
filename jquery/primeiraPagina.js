@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $('button').click(function(){
+        $('.teste').hide()
+    }),
+    $('h4').dblclick(function(){
+        $(this).hide();
+    })
+    $('p.red').mouseenter(function(){
+        $(this).css("background-color","red")
+    })
+})
