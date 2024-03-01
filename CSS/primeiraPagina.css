@@ -4,4 +4,17 @@
 body{
 
     background-color: aqua;
+    
+    & div.primeira{
+
+        position: relative;
+        width: 100px;
+        height: 60px;
+        border: 1px solid red;
+        background-color: blue;
+
+    }
+    & h2{
+        position: relative;;
+    }
 }
