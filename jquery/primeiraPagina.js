@@ -12,17 +12,10 @@ $(document).ready(function(){
         $('p.alterna').toggle(5000);
     }),
     $('button').click(function(){
-        $('.primeira').animate({
-            left: '250px',
-            opacity: '0.5',
-            height: '150px',
-            maxWidth: '150px',
-            
+        var div = $("div.primeira");
+        div.animate({left: '100px'}, "slow");
+        div.animate({fontSize: '3em'}, "slow");     
         });
-    }),
-    $("button.mover").click(function(){
-        $("div.primeira").animate({left: '250px'});
-      }); 
-
-})
+    })    
+ 
 
