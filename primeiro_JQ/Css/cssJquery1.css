@@ -1,0 +1,22 @@
+body{
+    background-color: aqua;
+}
+.desap, .testeVermelho {
+    background-color: red;
+}
+.baixar{
+    border: 1px solid red;
+    background-color: aquamarine;
+    padding: 5px;
+    text-align: center;
+    margin: 0px;
+}
+.painel{
+    border: 1px solid red;
+    background-color: antiquewhite;
+   
+    text-align: center;
+    margin: 0px;
+    padding: 30px;
+}
+ 
