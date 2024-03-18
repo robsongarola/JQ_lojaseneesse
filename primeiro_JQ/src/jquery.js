@@ -1,20 +1,27 @@
  
 
-$(document).ready(function(){
-    $("button").click(function(){
-      $('p').fadeToggle('slow');
-    });
-    $('.baixar').click(function(){
-      $('.painel').slideToggle(3000)
-    })
+$(function(){
+  $('button.primeiro').mouseenter(function(){
+    $('.primeira-col').hide(3000)
   });
-
-  $(document).ready(function(){
-    $('div.left').click(function(){
-      $(this).animate({ left: '300px'})
-      
-    })
-    $('div.left').click(function(){
-      $(this).animate({right:'300px'})
-    })
+  $('button.primeiro').click(function(){
+    $('.primeira-col').show(3000)
+  }) 
+})
+$(function(){
+  $('button.segundo').mouseenter(function(){
+    $('.segunda-col').fadeIn(3000)
+  });
+  $('button.segundo').mouseleave(function(){
+    $('.segunda-col').fadeOut()
   })
+})
+$(function(){
+  $('.terceira-col-1').mouseenter(function(){
+    $('.terceira-col-2').slideUp(3000)
+  });
+  $('.terceira-col-2').mouseout(function(){
+    $(this).slideDown(3000)
+  })
+
+})

@@ -1,33 +1,21 @@
 body{
     background-color: aqua;
 }
-.desap, .testeVermelho {
-    background-color: red;
-}
-.baixar{
-    border: 1px solid red;
-    background-color: aquamarine;
-    padding: 5px;
-    text-align: center;
-    margin: 0px;
-}
-.painel{
-    border: 1px solid red;
-    background-color: antiquewhite;
-   
-    text-align: center;
-    margin: 0px;
-    padding: 30px;
-}
-div.left{
-    position: relative;
-    background-color: rgba(155, 49, 49, 0.5);
-    color: black;
-    width: 150px;
-    height: 80px;
-    text-align: center;
-    font-size: 20px;
-    padding: 5px;
+ .primeira-col{
+  text-align: center;
+  color: #000;
+  border: 1px solid red;  
+ }
+ .segunda-col {
 
-}
+    text-align: center;
+    color: green;
+    border: 1px solid blue;
+ }
+ .terceira-col-1, .terceira-col-2 {
+
+    text-align: center;
+    color: green;
+    border: 1px solid blue;
+ }
  
