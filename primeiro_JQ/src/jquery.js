@@ -18,10 +18,17 @@ $(function(){
 })
 $(function(){
   $('.terceira-col-1').mouseenter(function(){
-    $('.terceira-col-2').slideUp(3000)
+    $('.terceira-col-2').slideToggle(3000)
   });
-  $('.terceira-col-2').mouseout(function(){
-    $(this).slideDown(3000)
+  $('.terceira-col-2').mousedown(function(){
+    $(this).slideToggle(3000)
+  });
+  $('.quarta').click(function(){
+    $('.quarta-col').animate({
+      fontSize: "2em",
+      textAlign: "left",
+      color:"red"
+    })
   })
 
 })

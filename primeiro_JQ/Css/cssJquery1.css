@@ -1,18 +1,18 @@
 body{
     background-color: aqua;
 }
- .primeira-col{
+ .primeira-col, .quarta-col{
   text-align: center;
   color: #000;
   border: 1px solid red;  
  }
- .segunda-col {
+ .segunda-col, .quinta-col {
 
     text-align: center;
     color: green;
     border: 1px solid blue;
  }
- .terceira-col-1, .terceira-col-2 {
+ .terceira-col-1, .terceira-col-2, .sexta-col {
 
     text-align: center;
     color: green;
