@@ -26,7 +26,7 @@ $(function(){
   $('.quarta').click(function(){
     $('.quarta-col').animate({
       fontSize: "2em",
-      textAlign: "left",
+      backgroundColor:'green',
       color:"red"
     })
   })
