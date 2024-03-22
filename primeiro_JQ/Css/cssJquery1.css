@@ -23,4 +23,11 @@ body{
    color: red;
    
  }
+ .sexta-col1, .sexta-col2{
+   position:relative;
+   color: green;
+   border: 1px solid black;
+   text-align: center;
+   
+ }
  

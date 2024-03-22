@@ -30,4 +30,10 @@ $(function(){
    div.animate({height: '100px', opacity: '0.4'}, "slow");
    div.animate({width: '100px', opacity: '0.8'}, "slow");
   })
+  $('.sexta-col1').mouseenter(function(){
+    $(".sexta-col2").css('color',"red").slideDown(3000).slideUp(3000)
+  })
+  $('.quinta-col').mouseenter(function(){
+    alert('texto :' + $('.quinta-col').html())
+  })
 })
