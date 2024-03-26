@@ -1,33 +1,8 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
     background-color: aqua;
 }
- .primeira-col, .quarta-col{
-  text-align: center;
-  color: #000;
-  border: 1px solid red;  
- }
- .segunda-col, .quinta-col {
-
-    text-align: center;
-    color: green;
-    border: 1px solid blue;
- }
- .terceira-col-1, .terceira-col-2, .sexta-col {
-
-    text-align: center;
-    color: green;
-    border: 1px solid blue;
- }
- .quarta-col{
-   position:relative;
-   color: red;
-   
- }
- .sexta-col1, .sexta-col2{
-   position:relative;
-   color: green;
-   border: 1px solid black;
-   text-align: center;
-   
- }
  
