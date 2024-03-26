@@ -5,4 +5,11 @@
 body{
     background-color: aqua;
 }
+
+div.col-{
+  text-align: center;
+  padding: 15px;
+  background-color: aqua;
+  color: black;
+}
  

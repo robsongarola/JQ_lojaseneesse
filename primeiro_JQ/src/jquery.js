@@ -1,5 +1,5 @@
-$(document).(function(){
+$(document).ready(function(){
    $('.button1').click(function(){
-      alert('Meu nome é'+ $('#nome').val())
+      alert('O texto é :'+ $('.teste').text())
    }) 
 })
