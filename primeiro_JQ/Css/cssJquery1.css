@@ -5,11 +5,17 @@
 body{
     background-color: aqua;
 }
+.row{
+  width: 100%; 
+  background-color: aqua;
+  margin: 0px;
+}
 
 div.col-{
   text-align: center;
-  padding: 15px;
-  background-color: aqua;
+  padding: 15px;  
   color: black;
+  min-width: 333px;
+  border: 1px solid red;
 }
  
