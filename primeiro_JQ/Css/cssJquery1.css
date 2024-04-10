@@ -9,13 +9,14 @@ body{
   width: 100%; 
   background-color: aqua;
   margin: 0px;
+  align-items: center;
 }
 
 div.col-{
   text-align: center;
   padding: 15px;  
   color: black;
-  min-width: 333px;
+  min-width: 370px;
   border: 1px solid red;
 }
  
