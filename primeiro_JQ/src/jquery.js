@@ -14,4 +14,10 @@ $(document).ready(function(){
     $('.button5').click(function(){
         alert("Modificando texto : " + $('.par3').text('novo Texto'))
     })
+    $('.button6').click(function(){
+        $('ol').append('<li>Itens 1</li>')
+    })
+    $('p.depois').mouseenter(function(){
+        $(this).after('<b>Bom dia</b>')
+    })
 })
