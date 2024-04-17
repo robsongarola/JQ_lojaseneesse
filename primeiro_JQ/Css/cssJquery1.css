@@ -21,4 +21,13 @@ div.col-{
   
   border: 1px solid red;
 }
- 
+ .importante{
+  
+  font-size: xx-large;
+  font-weight:bold ;
+
+ }
+ .azul{
+
+  color: blue;
+ }
