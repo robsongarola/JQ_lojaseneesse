@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="./Css/cssJquery1.css">
-    <script src="./src/jquery.js"></script>
+    <link rel="stylesheet" href="../Css/cssJquery1.css">
+     
 
     <!--BOOTSTRAP-->
     <!-- Latest compiled and minified CSS -->
@@ -21,10 +21,24 @@
   
     <title>Jquery2</title>
     <script>
+        $(document).ready(function(){
+            $('p').next().css('color','red')
 
+        })
     </script>
-</head>
+</head> 
 <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-">
+                <h3>Navegando na DOM</h3>
+                <p>O tempo está <span>bom</span>, mas parece <span>que vai chover</span></p>
+                <h2>segundo</h2>
+            </div>
+            <div class="col-"></div>
+            <div class="col-"></div>
+        </div>
+    </div>
     
 </body>
 </html>

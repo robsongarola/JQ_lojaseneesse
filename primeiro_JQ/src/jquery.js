@@ -16,5 +16,6 @@
          $('.cor').addClass('azul')
          $('h1,h3').addClass('importante')
       })
+      
    })
  

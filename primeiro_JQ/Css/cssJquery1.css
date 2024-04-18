@@ -6,7 +6,7 @@ body{
     background-color: aqua;
 }
 .row{
-  width: 100%; 
+  width: auto; 
   background-color: aqua;
   margin: 0px;
   align-items: center;
