@@ -22,7 +22,12 @@
     <title>Jquery2</title>
     <script>
         $(document).ready(function(){
-            $('p').next().css('color','red')
+            $('p').next().css('color','red');
+            $('li').parentsUntil('div.primeira').css('color','green')
+            $('.pai').children().css('color','red')
+            $('ul').find('li').css('color','green')
+            $('h4').parent().css('color','red')
+            $('div.irmaos, h4').siblings('p').css('color','yellow')
 
         })
     </script>
@@ -37,12 +42,33 @@
             </div>
             <div class="col-">
                 <div class="primeira">
+                    <h4>Navegando na DOM -Descendentes(filhos)</h4>
+                    <div class="pai">
+                        <ul>
+                            <li>Primeira</li>
+                            <li>segunda</li>
+                            <li>terceira</li>
+                        </ul>
+                    </div>
 
                 </div>
-                <div class="segunda"></div>
-                <div class="terceira"></div>
             </div>
-            <div class="col-"></div>
+         
+            <div class="col-">
+                <div class="terceira">
+                    <div class="segunda">
+                        <h3>Elementos -irmaos</h3>
+                        <div class="irmaos">
+                            <h4>Texto um de teste</h4>
+                            <p>Paragrafo um de teste</p>
+                            <h4>Texto dois de teste</h4>
+                            <p>Paragrafo dois de teste</p>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div>
     
