@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../Css/cssJquery1.css">
+     
+
+    <!--BOOTSTRAP-->
+    <!-- Latest compiled and minified CSS -->
+
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  
+    <title>Jquery2</title>
+    <script>
+        $(document).ready(function(){
+            $('p').next().css('color','red');
+            $('li').parentsUntil('div.primeira').css('color','green')
+            $('.pai').children().css('color','red')
+            $('ul').find('li').css('color','green')
+            $('h4').parent().css('color','red')
+            $('div.irmaos, h4').siblings('p').css('color','yellow')
+
+        })
+    </script>
+</head> 
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-">
+                <h3>Navegando na DOM</h3>
+                <p>O tempo está <span>bom</span>, mas parece <span>que vai chover</span></p>
+                <h2>segundo</h2>
+            </div>
+            <div class="col-">
+                <div class="primeira">
+                    <h4>Navegando na DOM -Descendentes(filhos)</h4>
+                    <div class="pai">
+                        <ul>
+                            <li>Primeira</li>
+                            <li>segunda</li>
+                            <li>terceira</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+         
+            <div class="col-">
+                <div class="terceira">
+                    <div class="segunda">
+                        <h3>Elementos -irmaos</h3>
+                        <div class="irmaos">
+                            <h4>Texto um de teste</h4>
+                            <p>Paragrafo um de teste</p>
+                            <h4>Texto dois de teste</h4>
+                            <p>Paragrafo dois de teste</p>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
