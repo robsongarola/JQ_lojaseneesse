@@ -13,6 +13,7 @@ body{
 }
 
 div.col-{
+  width: auto; 
   text-align: center;
   padding: 15px;  
   color: black;
