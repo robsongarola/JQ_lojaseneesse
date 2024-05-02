@@ -3,6 +3,6 @@
  
 
    $(document).ready(function(){
-      $('p').css('background-color',"red")      
+      $('.col- p:nth-child(1)').css('background-color',"red")      
    })
  
