@@ -4,6 +4,7 @@
 
 body{
     background-color: aqua;
+    
 }
 .row{
   width: auto; 
@@ -11,24 +12,14 @@ body{
   margin: 0px;
   align-items: center;
 }
+#logo{
 
-div.col-{
-  width: auto; 
-  text-align: center;
-  padding: 15px;  
-  color: black;
-  max-width: 390px;
-  min-width: 270px;
-  
-  border: 1px solid red;
+  background-image: url('../src/img/logo1.png')  ;
 }
- .importante{
-  
-  font-size: xx-large;
-  font-weight:bold ;
-
- }
- .azul{
-
-  color: blue;
- }
+.nav1{
+  display:'inline';
+  text-decoration:'none';
+  padding:0px 10px;
+  margin-bottom:0px
+}
+ 
